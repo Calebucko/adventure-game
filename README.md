@@ -20,6 +20,6 @@
         Menu A
         Menu B)
         if user input is valid
-        Read user input and reset state to A or B
-        Newnode=currentnode
+            Read user input and reset state to A or B
+        Else: Don't change state, new node is still current node
 
