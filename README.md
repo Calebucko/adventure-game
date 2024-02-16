@@ -3,7 +3,7 @@
     main function():
         read game dictionary
         Set intial node to start
-        Create a while loop for player moving through game (playnode is active)
+        Create a while loop for player moving through game (playgame is active)
             start menu begings at index 0
             Make boolean false when player decides to quit or when he reaches end of the game
 
@@ -20,6 +20,6 @@
         Menu A
         Menu B)
         if user input is valid
-            Read user input and reset state to A or B
+            Read user input and reset state to A or B(pressing 1 or 2)
         Else: Don't change state, new node is still current node
 
